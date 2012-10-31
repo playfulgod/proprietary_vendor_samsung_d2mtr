@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- use empty string to specify no proxy or port -->
+<!-- This version must agree with that in apps/common/res/apns.xml -->
+<apns version="7">
+    <apn carrier="MetroPCS DEFAULT"
+        mcc="311"
+        mnc="660"
+        apn="internet.metropcs"
+        user=""
+        password=""
+        type="default,hipri,admin,mms"
+        authtype="0" 
+        mmsc="http://mms.metropcs.net:3128/mmsc"
+        protocol="IP"
+        roaming_protocol="IP"
+        bearer="14"
+        inactivity_timer="7080"
+    />
+    <apn carrier="MetroPCS IMS"
+        mcc="311"
+        mnc="660"
+        apn="ims.metropcs"
+        user=""
+        password=""
+        type="ims"
+        authtype="0" 
+        mmsc="http://mms.metropcs.net:3128/mmsc"
+        protocol="IP"
+        roaming_protocol="IP"
+        bearer="14"
+        inactivity_timer="7080"
+    />
+</apns>
